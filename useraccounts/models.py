@@ -34,11 +34,9 @@ class UserOperations:
 
         return errors
 
-    @classmethod
-    def create_a_user(cls, username, email, first_name, last_name, password, confirm_password):
+    def create_a_user(self, username, email, first_name, last_name, password, confirm_password):
         """
         This method is used to create a user
-        Written as a classmethod just for testing purposes
         """
 
         user = None
